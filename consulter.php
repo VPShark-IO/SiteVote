@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 </head>
 <body>
-	<h1>Consultation</h1>
+	<h1>Consulter les résultats</h1>
 	<hr>
+
 </body>
 </html>

@@ -21,5 +21,6 @@
 		<input type="reset" id="reset_ue32" name="reset_ue32" value="Réinitialiser">
 		<input type="submit" id="submit_ue32" name="submit_ue32" value="Envoyer">
 	</form>
+	
 </body>
 </html>
