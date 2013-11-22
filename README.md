@@ -33,3 +33,11 @@ L'utilisateur peut choisir de voter ou de consulter les résultats.
 * Récapitulatif: page affichant les résultats des votes suivant les UE et demandant a l'utilisateur de confirmer son vote ou de revenir en arrière.
 
 Optionnel: lors de l'arrivée sur le site, une connexion est demandée.
+
+
+Utilisateur
+***********
+
+Marc
+Yoann
+Thomas
