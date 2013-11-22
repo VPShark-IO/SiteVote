@@ -1,7 +1,6 @@
 <h1>SiteVote</h1>
 
 <h2>Mini projet Réseaux PHP - Site de vote</h2>
-======================================
 
 <h3>Présentation</h3>
 ************
