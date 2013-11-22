@@ -4,9 +4,8 @@
 	if(isset($_GET["vote_ue31"]))
 	{
 		$choix_ue31 = $_GET["vote_ue31"];
-
+		$_SESSION['vote_ue31'] = $choix_ue31 ;
 	}
-	$_SESSION['vote_ue31'] = $choix_ue31 ;
 ?>
 
 
@@ -19,7 +18,7 @@
 <body>
 	<h1>UE32 - Connaissances complémentaires</h1>
 	<hr>
-	<form action="action.php" method="POST">
+	<form action="transition_recap.php" method="POST">
 		<h3>Module général</h3>
 		<input type="radio" id="bouton_maths" name="vote_ue32" value="maths"><label for="bouton_maths">Mathématiques</label><br>
 		<input type="radio" id="bouton_ego" name="vote_ue32" value="ego"><label for="bouton_ego">E.G.O.</label><br>
