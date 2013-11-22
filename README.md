@@ -16,5 +16,20 @@ Si l'utilisateur choisit de consulter les votes, il est redirigé vers une page 
 
 Une session est également créée une fois que l'utilisateur a voté: on stocke l'adresse ip de l'utilisateur dans la table et en format papier, il ne peut pas re-voter. Quand il arrive sur la page d'accueil il est automatiquement redirigé vers la page de consultation des résultats.
 
+Fonctionnement
+**************
+Le page d'accueil est l'index.
+L'utilisateur peut choisir de voter ou de consulter les résultats.
+- Si l'utilisateur choisit de voter, il est redirigé vers la premiere page de vote: ue31 - informatique
+  Apres soumission de ce premier vote, le vote est enregistré dans une variable et l'utilisateur est redirigé vers la seconde page de vote: ue32 - général.
+- Si l'utilisateur choisit de consulter les résultats, il est redirigé vers la page consulter.php
+  Deux tableaux affichent ensuite les résultats en fonction de l'UE.
+
 Architecture
 ************
+Index: Sur cette page, l'utilisateur peut choisir de voter ou de consulter les résultats.
+UE31: premiere page de vote, UE informatique + module complémentaire
+UE32: seconde page de vote, UE32 généraliste + module complémentaire
+Récapitulatif: page affichant les résultats des votes suivant les UE et demandant a l'utilisateur de confirmer son vote ou de revenir en arrière.
+
+Optionnel: lors de l'arrivée sur le site, une connexion est demandée.
