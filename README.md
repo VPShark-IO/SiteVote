@@ -28,8 +28,8 @@ L'utilisateur peut choisir de voter ou de consulter les résultats.
 Architecture
 ************
 Index: Sur cette page, l'utilisateur peut choisir de voter ou de consulter les résultats.
-UE31: premiere page de vote, UE informatique + module complémentaire
-UE32: seconde page de vote, UE32 généraliste + module complémentaire
+UE31: premiere page de vote, UE informatique + module complémentaire.
+UE32: seconde page de vote, UE32 généraliste + module complémentaire.
 Récapitulatif: page affichant les résultats des votes suivant les UE et demandant a l'utilisateur de confirmer son vote ou de revenir en arrière.
 
 Optionnel: lors de l'arrivée sur le site, une connexion est demandée.
