@@ -1,3 +1,15 @@
+<?php
+	session_start();
+
+	if(isset($_GET["vote_ue31"]))
+	{
+		$choix_ue31 = $_GET["vote_ue31"];
+
+	}
+	$_SESSION['vote_ue31'] = $choix_ue31 ;
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
