@@ -1,3 +1,15 @@
+<?php
+
+session_start();
+
+if(isset($_GET["vote_ue32"]))
+{
+	$choix_ue32 = $_GET["vote_ue32"];
+}
+
+$_SESSION['vote_ue32'] = $choix_ue32 ;
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +19,15 @@
 <body>
 	<h1>Récapitulatif</h1>
 	<hr>
-	
+	<p>Voici les résultats de vos votes:</p>
+	<?php 	echo "UE 31 - Informatique: $vote_ue31";
+			echo "<br />";
+			echo "UE 32 - Général:		$vote_ue32"	;
+			echo "<br />";
+	?>
+	<br>
+	<input type="button" name="retour_ue32" value="<- Retour" onclick="self.location.href='ue32.php'">
+	<input type="button" name="retour_home" value="Accueil" onclick="self.location.href='index.php'">
+	<input type="button" name="soumettre_vote" value="Soumettre vote" onclick="">
 </body>
 </html>
