@@ -1,5 +1,5 @@
 <h1>SiteVote</h1>
-========
+
 <h2>Mini projet Réseaux PHP - Site de vote</h2>
 ======================================
 
