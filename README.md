@@ -3,7 +3,7 @@ SiteVote
 Mini projet Réseaux PHP - Site de vote
 ======================================
 
-Présentation
+<h3>Présentation</h3>
 ************
 Le principe du site est de permettre a un utilisateur de voter pour sa matière "préférée" dans les deux UE différents (UE31 et UE32).
 L'utilisateur pourra également consulter les résultats sur un page dédiée (résultats stockés dans une base de données gérée via MySQL).
